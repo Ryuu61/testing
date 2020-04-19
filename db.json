@@ -45,7 +45,7 @@
             "formTemplateId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
         },
         {
-            "deviceId": "91049772-12a8-430b-9d5c-30931a90239d",
+            "id": "91049772-12a8-430b-9d5c-30931a90239d",
             "serialNumber": "DEF",
             "devicesCode": "2",
             "name": "所有緊急發電機房",
@@ -57,7 +57,7 @@
             "formTemplateId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
         },
         {
-            "deviceId": "0ab95666-9034-4e88-bb00-4de26fe444d7",
+            "id": "0ab95666-9034-4e88-bb00-4de26fe444d7",
             "serialNumber": "GHI",
             "devicesCode": "3",
             "name": "十一千伏環網櫃外殼安裝穩固",
