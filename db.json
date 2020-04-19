@@ -1,5 +1,5 @@
 {
-    "Account/Login": [
+    "Account": [
       {
         "id": "cfd69e4c-c31a-4a8e-83dc-9a53049fc0ac",
         "userName": "test",
@@ -13,159 +13,161 @@
         "token": "2"
       }
     ],
-    "regions": [
-      {
-        "regionId": "94013bf9-2f46-43df-9123-8c89ac43ed35",
-        "name": "B1",
-        "description": null
-      },
-      {
-        "regionId": "6b070eed-e76b-43f5-9999-0c27bd366d6f",
-        "name": "B1M",
-        "description": null
-      },
-      {
-        "regionId": "d57ccb6e-7576-4c10-b0ea-6cb23b3a6744",
-        "name": "6樓",
-        "description": null
-      }
-    ],
-    "devices": [
-      {
-        "deviceId": "c8b6e9eb-4bf1-4669-9d1f-3e355f12e22e",
-        "serialNumber": "ABC",
-        "devicesCode": "1",
-        "deviceName": "賭場及酒店高壓電制房",
-        "description": null,
-        "status": "良",
-        "checkDate": null,
-        "deviceTypeId": "bd5a524e-8a0c-4a57-975b-186f60258f61",
-        "regionId": "94013bf9-2f46-43df-9123-8c89ac43ed35",
-        "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
-      },
-      {
-        "deviceId": "91049772-12a8-430b-9d5c-30931a90239d",
-        "serialNumber": "DEF",
-        "devicesCode": "2",
-        "deviceName": "所有緊急發電機房",
-        "description": null,
-        "status": "良",
-        "checkDate": null,
-        "deviceTypeId": "bd5a524e-8a0c-4a57-975b-186f60258f61",
-        "regionId": "6b070eed-e76b-43f5-9999-0c27bd366d6f",
-        "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
-      },
-      {
-        "deviceId": "0ab95666-9034-4e88-bb00-4de26fe444d7",
-        "serialNumber": "GHI",
-        "devicesCode": "3",
-        "deviceName": "十一千伏環網櫃外殼安裝穩固",
-        "description": null,
-        "status": "良",
-        "checkDate": null,
-        "deviceTypeId": "905e6050-dafb-4f00-bb6b-60342c32d3a9",
-        "regionId": "d57ccb6e-7576-4c10-b0ea-6cb23b3a6744\"",
-        "formId": "33c0563a-7ea0-4f3e-bf5c-e2cc9607b473"
-      }
-    ],
-    "formTemplates": [
-      {
-        "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539",
-        "title": "工程部設備項目檢查表-供電系統",
-        "description": null,
-        "formTemplateDetails": [
-            {
-                "formFieldId": "f25e4aec-379d-46af-a262-c7fa41c67816",
-                "fieldName": "安全警報",
-                "type": "string",
-                "isRequired": false,
-                "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
-              },
-              {
-                "formFieldId": "84e82f64-5e16-4407-a1ed-81df734f5f28",
-                "fieldName": "防火設施",
-                "type": "string",
-                "isRequired": false,
-                "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
-              },
-              {
-                "formFieldId": "914babe8-d7e1-4fa3-b55d-6f0de28b40dc",
-                "fieldName": "照明設施",
-                "type": "string",
-                "isRequired": false,
-                "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
-              },
-              {
-                "formFieldId": "ef1f1c8e-8387-48c7-9f32-e600790fb3d4",
-                "fieldName": "空調/排氣",
-                "type": "string",
-                "isRequired": false,
-                "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
-              },
-              {
-                "formFieldId": "30e3dceb-8d97-4e98-80a0-38a45373b4fb",
-                "fieldName": "指示燈號",
-                "type": "string",
-                "isRequired": false,
-                "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
-              },
-              {
-                "formFieldId": "725a3260-adf1-491b-bfcc-f1418cb4d399",
-                "fieldName": "設備裝況",
-                "type": "string",
-                "isRequired": false,
-                "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
-              },
-              {
-                "formFieldId": "85e5c1e8-ea17-4ea2-aab4-67fe8b10a520",
-                "fieldName": "運作狀態",
-                "type": "string",
-                "isRequired": false,
-                "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
-              },
-              {
-                "formFieldId": "ec6bed65-e88f-466d-9175-f894b5840702",
-                "fieldName": "備用電池",
-                "type": "string",
-                "isRequired": false,
-                "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
-              },
-              {
-                "formFieldId": "05994bfe-0258-4634-86fd-d52657a97a21",
-                "fieldName": "地方清潔",
-                "type": "string",
-                "isRequired": false,
-                "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
-              }
+    "System": {
+        "regions": [
+        {
+            "regionId": "94013bf9-2f46-43df-9123-8c89ac43ed35",
+            "name": "B1",
+            "description": null
+        },
+        {
+            "regionId": "6b070eed-e76b-43f5-9999-0c27bd366d6f",
+            "name": "B1M",
+            "description": null
+        },
+        {
+            "regionId": "d57ccb6e-7576-4c10-b0ea-6cb23b3a6744",
+            "name": "6樓",
+            "description": null
+        }
+        ],
+        "devices": [
+        {
+            "deviceId": "c8b6e9eb-4bf1-4669-9d1f-3e355f12e22e",
+            "serialNumber": "ABC",
+            "devicesCode": "1",
+            "deviceName": "賭場及酒店高壓電制房",
+            "description": null,
+            "status": "良",
+            "checkDate": null,
+            "deviceTypeId": "bd5a524e-8a0c-4a57-975b-186f60258f61",
+            "regionId": "94013bf9-2f46-43df-9123-8c89ac43ed35",
+            "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
+        },
+        {
+            "deviceId": "91049772-12a8-430b-9d5c-30931a90239d",
+            "serialNumber": "DEF",
+            "devicesCode": "2",
+            "deviceName": "所有緊急發電機房",
+            "description": null,
+            "status": "良",
+            "checkDate": null,
+            "deviceTypeId": "bd5a524e-8a0c-4a57-975b-186f60258f61",
+            "regionId": "6b070eed-e76b-43f5-9999-0c27bd366d6f",
+            "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
+        },
+        {
+            "deviceId": "0ab95666-9034-4e88-bb00-4de26fe444d7",
+            "serialNumber": "GHI",
+            "devicesCode": "3",
+            "deviceName": "十一千伏環網櫃外殼安裝穩固",
+            "description": null,
+            "status": "良",
+            "checkDate": null,
+            "deviceTypeId": "905e6050-dafb-4f00-bb6b-60342c32d3a9",
+            "regionId": "d57ccb6e-7576-4c10-b0ea-6cb23b3a6744\"",
+            "formId": "33c0563a-7ea0-4f3e-bf5c-e2cc9607b473"
+        }
+        ],
+        "formTemplates": [
+        {
+            "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539",
+            "title": "工程部設備項目檢查表-供電系統",
+            "description": null,
+            "formTemplateDetails": [
+                {
+                    "formFieldId": "f25e4aec-379d-46af-a262-c7fa41c67816",
+                    "fieldName": "安全警報",
+                    "type": "string",
+                    "isRequired": false,
+                    "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
+                },
+                {
+                    "formFieldId": "84e82f64-5e16-4407-a1ed-81df734f5f28",
+                    "fieldName": "防火設施",
+                    "type": "string",
+                    "isRequired": false,
+                    "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
+                },
+                {
+                    "formFieldId": "914babe8-d7e1-4fa3-b55d-6f0de28b40dc",
+                    "fieldName": "照明設施",
+                    "type": "string",
+                    "isRequired": false,
+                    "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
+                },
+                {
+                    "formFieldId": "ef1f1c8e-8387-48c7-9f32-e600790fb3d4",
+                    "fieldName": "空調/排氣",
+                    "type": "string",
+                    "isRequired": false,
+                    "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
+                },
+                {
+                    "formFieldId": "30e3dceb-8d97-4e98-80a0-38a45373b4fb",
+                    "fieldName": "指示燈號",
+                    "type": "string",
+                    "isRequired": false,
+                    "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
+                },
+                {
+                    "formFieldId": "725a3260-adf1-491b-bfcc-f1418cb4d399",
+                    "fieldName": "設備裝況",
+                    "type": "string",
+                    "isRequired": false,
+                    "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
+                },
+                {
+                    "formFieldId": "85e5c1e8-ea17-4ea2-aab4-67fe8b10a520",
+                    "fieldName": "運作狀態",
+                    "type": "string",
+                    "isRequired": false,
+                    "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
+                },
+                {
+                    "formFieldId": "ec6bed65-e88f-466d-9175-f894b5840702",
+                    "fieldName": "備用電池",
+                    "type": "string",
+                    "isRequired": false,
+                    "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
+                },
+                {
+                    "formFieldId": "05994bfe-0258-4634-86fd-d52657a97a21",
+                    "fieldName": "地方清潔",
+                    "type": "string",
+                    "isRequired": false,
+                    "formId": "f6f40ba0-1cc1-4eee-8454-71e504945539"
+                }
+            ]
+        },
+        {
+            "formId": "33c0563a-7ea0-4f3e-bf5c-e2cc9607b473",
+            "title": "工程部設備項目檢查表-供電系統",
+            "description": null,
+            "formTemplateDetails": [
+                {
+                    "formFieldId": "0cc5bb05-5431-41ff-84b1-959f62a98117",
+                    "fieldName": "狀態(合閘/開路)",
+                    "type": "option",
+                    "isRequired": false,
+                    "formId": "33c0563a-7ea0-4f3e-bf5c-e2cc9607b4739"
+                },
+                {
+                    "formFieldId": "e3982f73-8fe5-4b79-adc2-556a8e47dfc3",
+                    "fieldName": "狀況(良/不良)",
+                    "type": "option",
+                    "isRequired": false,
+                    "formId": "33c0563a-7ea0-4f3e-bf5c-e2cc9607b4739"
+                },
+                {
+                    "formFieldId": "abd04d59-aad3-438d-b4a4-196b657f8ce1",
+                    "fieldName": "備註",
+                    "type": "string",
+                    "isRequired": false,
+                    "formId": "33c0563a-7ea0-4f3e-bf5c-e2cc9607b4739"
+                }
+            ]
+        }
         ]
-      },
-      {
-        "formId": "33c0563a-7ea0-4f3e-bf5c-e2cc9607b473",
-        "title": "工程部設備項目檢查表-供電系統",
-        "description": null,
-        "formTemplateDetails": [
-            {
-                "formFieldId": "0cc5bb05-5431-41ff-84b1-959f62a98117",
-                "fieldName": "狀態(合閘/開路)",
-                "type": "option",
-                "isRequired": false,
-                "formId": "33c0563a-7ea0-4f3e-bf5c-e2cc9607b4739"
-              },
-              {
-                "formFieldId": "e3982f73-8fe5-4b79-adc2-556a8e47dfc3",
-                "fieldName": "狀況(良/不良)",
-                "type": "option",
-                "isRequired": false,
-                "formId": "33c0563a-7ea0-4f3e-bf5c-e2cc9607b4739"
-              },
-              {
-                "formFieldId": "abd04d59-aad3-438d-b4a4-196b657f8ce1",
-                "fieldName": "備註",
-                "type": "string",
-                "isRequired": false,
-                "formId": "33c0563a-7ea0-4f3e-bf5c-e2cc9607b4739"
-              }
-        ]
-      }
-    ]
+    }
   }
