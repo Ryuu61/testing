@@ -65,7 +65,7 @@
             "status": 0,
             "checkDate": null,
             "deviceTypeId": "905e6050-dafb-4f00-bb6b-60342c32d3a9",
-            "regionId": "d57ccb6e-7576-4c10-b0ea-6cb23b3a6744\"",
+            "regionId": "d57ccb6e-7576-4c10-b0ea-6cb23b3a6744",
             "formTemplateId": "33c0563a-7ea0-4f3e-bf5c-e2cc9607b473"
         }
         ],
@@ -160,7 +160,7 @@
                     "type": "option",
                     "isRequired": false,
                     "optionValues": "良;不良",
-                    "formTemplateId": "33c0563a-7ea0-4f3e-bf5c-e2cc9607b4739"
+                    "formTemplateId": "33c0563a-7ea0-4f3e-bf5c-e2cc9607b473"
                 },
                 {
                     "id": "e3982f73-8fe5-4b79-adc2-556a8e47dfc3",
@@ -168,7 +168,7 @@
                     "type": "option",
                     "isRequired": false,
                     "optionValues": "良;不良",
-                    "formTemplateId": "33c0563a-7ea0-4f3e-bf5c-e2cc9607b4739"
+                    "formTemplateId": "33c0563a-7ea0-4f3e-bf5c-e2cc9607b473"
                 },
                 {
                     "id": "abd04d59-aad3-438d-b4a4-196b657f8ce1",
@@ -176,7 +176,7 @@
                     "type": "string",
                     "isRequired": false,
                     "optionValues": "",
-                    "formTemplateId": "33c0563a-7ea0-4f3e-bf5c-e2cc9607b4739"
+                    "formTemplateId": "33c0563a-7ea0-4f3e-bf5c-e2cc9607b473"
                 }
             ]
         }
